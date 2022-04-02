@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!--< Remote Name />-->
+  <remote name="avarice" 
+	  fetch="ssh://git@github.com/Avarice12" />
+  <remote name="los" 
+	  fetch="https://github.com/LineageOS" />
+  <remote name="chaldea"
+          fetch="ssh://git@github.com/chaldeaprjkt" />
+  <remote name="arrow-12.1"
+          fetch="https://github.com/ArrowOS" />
+
+        <!-- Trees -->
+        <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="avarice" revision="12.1" />
+        <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="avarice" revision="12.1" />
+        <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="chaldea" revision="main" />
+
+        <!-- Hals -->
+  	<project path="hardware/qcom-caf/sm8150/audio" name="platform_hardware_qcom_audio" remote="avarice" revision="12-sm8150" />
+  	<project path="hardware/qcom-caf/sm8150/display" name="platform_hardware_qcom_display" remote="avarice" revision="12-sm8150" />
+  	<project path="hardware/qcom-caf/sm8150/media" name="platform_hardware_qcom_media" remote="avarice" revision="12-sm8150" />
+
+        <!-- Commonsys Display Hals -->
+	<project path="vendor/qcom/opensource/commonsys/display" name="platform_vendor_qcom_opensource_display-commonsys" remote="arrow-12.1" revision="arrow-12.1" />
+
+        <!-- Extras -->
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1" />
+</manifest>
