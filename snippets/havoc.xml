@@ -66,7 +66,6 @@
   <project path="external/zlib" name="external_zlib" remote="havoc-trb" />
   <project path="external/sqlite" name="external_sqlite" groups="pdk" remote="havoc-trb" />
   <project path="external/arm-optimized-routines" name="arm_optimized_routines" groups="pdk" remote="havoc-trb"  />
-  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" groups="pdk" remote="havoc-trb" />
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="havoc-trb" />
