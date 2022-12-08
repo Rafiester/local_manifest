@@ -8,7 +8,7 @@
           fetch="ssh://git@gitlab.com" />
 
   <remote name="zenx"
-          fetch="https://github.com/ZenX-OS"
+          fetch="https://github.com/Zeus-OS"
           revision="ten" />
 
   <!-- <remote name="zenx-devices"
@@ -16,7 +16,7 @@
           revision="ten" /> -->
 
   <remote name="zenx-gapps"
-          fetch="https://gitlab.com/zenx-gapps"
+          fetch="https://gitlab.com/zeus-gapps"
           revision="ten" />
 
   <remote  name="gitlab_public"
